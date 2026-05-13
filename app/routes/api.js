@@ -6,4 +6,4 @@ const router = Router();
 router.get("/employees", EmployeeController.index);
 router.post("/employees", EmployeeController.store);
 
-export default router
+export default router;
