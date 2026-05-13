@@ -1,7 +1,7 @@
 import { Sequelize } from "sequelize";
 
 const sequelize = new Sequelize({
-    dialect: "sqlite",
+    dialect: process.env.DB_DIALECT,
     storage: process.env.DB_STORAGE
 });
 
