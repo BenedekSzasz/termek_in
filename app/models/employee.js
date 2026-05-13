@@ -18,6 +18,6 @@ const Employee = sequelize.define("employee", {
     }
 })
 
-// await sequelize.sync({ force: true })
+await sequelize.sync({ force: true })
 
 export default Employee
